@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B09D0EE20EAD1B100AA42E2 /* QuizPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */; };
 		1B44196520E3E479000431E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196420E3E479000431E1 /* AppDelegate.swift */; };
 		1B44196720E3E479000431E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196620E3E479000431E1 /* ViewController.swift */; };
 		1B44196A20E3E479000431E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196820E3E479000431E1 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPlayVC.swift; sourceTree = "<group>"; };
 		1B44196120E3E479000431E1 /* Spellquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B44196420E3E479000431E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B44196620E3E479000431E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				1B44196420E3E479000431E1 /* AppDelegate.swift */,
 				1B44196620E3E479000431E1 /* ViewController.swift */,
 				1B44196820E3E479000431E1 /* Main.storyboard */,
+				1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */,
 				1B44196B20E3E47C000431E1 /* Assets.xcassets */,
 				1B44196D20E3E47C000431E1 /* LaunchScreen.storyboard */,
 				1B44197020E3E47C000431E1 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				1B44196720E3E479000431E1 /* ViewController.swift in Sources */,
 				1B44196520E3E479000431E1 /* AppDelegate.swift in Sources */,
+				1B09D0EE20EAD1B100AA42E2 /* QuizPlayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
