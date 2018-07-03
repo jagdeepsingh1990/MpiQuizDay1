@@ -11,6 +11,7 @@
 		1B09D0F420EADA1A00AA42E2 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0F320EADA1A00AA42E2 /* QuestionModel.swift */; };
 		1B09D0F620EAF22800AA42E2 /* Class5Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0F520EAF22800AA42E2 /* Class5Questions.swift */; };
 		1B09D0FA20EAF76000AA42E2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0F920EAF76000AA42E2 /* ProgressHUD.m */; };
+		1B09D0FD20EB0FAE00AA42E2 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0FC20EB0FAE00AA42E2 /* WebViewViewController.swift */; };
 		1B44196520E3E479000431E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196420E3E479000431E1 /* AppDelegate.swift */; };
 		1B44196720E3E479000431E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196620E3E479000431E1 /* ViewController.swift */; };
 		1B44196A20E3E479000431E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196820E3E479000431E1 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		1B09D0F720EAF75F00AA42E2 /* Spellquiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spellquiz-Bridging-Header.h"; sourceTree = "<group>"; };
 		1B09D0F820EAF76000AA42E2 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		1B09D0F920EAF76000AA42E2 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		1B09D0FC20EB0FAE00AA42E2 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
 		1B44196120E3E479000431E1 /* Spellquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B44196420E3E479000431E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B44196620E3E479000431E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			children = (
 				1B44196620E3E479000431E1 /* ViewController.swift */,
 				1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */,
+				1B09D0FC20EB0FAE00AA42E2 /* WebViewViewController.swift */,
 			);
 			path = ViewCOntrollers;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B09D0FD20EB0FAE00AA42E2 /* WebViewViewController.swift in Sources */,
 				1B09D0FA20EAF76000AA42E2 /* ProgressHUD.m in Sources */,
 				1B44196720E3E479000431E1 /* ViewController.swift in Sources */,
 				1B09D0F620EAF22800AA42E2 /* Class5Questions.swift in Sources */,
