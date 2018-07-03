@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1B09D0EE20EAD1B100AA42E2 /* QuizPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */; };
+		1B09D0F420EADA1A00AA42E2 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0F320EADA1A00AA42E2 /* QuestionModel.swift */; };
+		1B09D0F620EAF22800AA42E2 /* Class5Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0F520EAF22800AA42E2 /* Class5Questions.swift */; };
+		1B09D0FA20EAF76000AA42E2 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B09D0F920EAF76000AA42E2 /* ProgressHUD.m */; };
 		1B44196520E3E479000431E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196420E3E479000431E1 /* AppDelegate.swift */; };
 		1B44196720E3E479000431E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196620E3E479000431E1 /* ViewController.swift */; };
 		1B44196A20E3E479000431E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196820E3E479000431E1 /* Main.storyboard */; };
@@ -17,6 +20,11 @@
 
 /* Begin PBXFileReference section */
 		1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPlayVC.swift; sourceTree = "<group>"; };
+		1B09D0F320EADA1A00AA42E2 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
+		1B09D0F520EAF22800AA42E2 /* Class5Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class5Questions.swift; sourceTree = "<group>"; };
+		1B09D0F720EAF75F00AA42E2 /* Spellquiz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spellquiz-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B09D0F820EAF76000AA42E2 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		1B09D0F920EAF76000AA42E2 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		1B44196120E3E479000431E1 /* Spellquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spellquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B44196420E3E479000431E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B44196620E3E479000431E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B09D0EF20EAD9A500AA42E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B09D0F320EADA1A00AA42E2 /* QuestionModel.swift */,
+				1B09D0F520EAF22800AA42E2 /* Class5Questions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B09D0F020EAD9AF00AA42E2 /* ViewCOntrollers */ = {
+			isa = PBXGroup;
+			children = (
+				1B44196620E3E479000431E1 /* ViewController.swift */,
+				1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */,
+			);
+			path = ViewCOntrollers;
+			sourceTree = "<group>";
+		};
+		1B09D0FB20EAF76A00AA42E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		1B44195820E3E479000431E1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +89,17 @@
 		1B44196320E3E479000431E1 /* Spellquiz */ = {
 			isa = PBXGroup;
 			children = (
+				1B09D0EF20EAD9A500AA42E2 /* Model */,
 				1B44196420E3E479000431E1 /* AppDelegate.swift */,
-				1B44196620E3E479000431E1 /* ViewController.swift */,
+				1B09D0F020EAD9AF00AA42E2 /* ViewCOntrollers */,
 				1B44196820E3E479000431E1 /* Main.storyboard */,
-				1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */,
 				1B44196B20E3E47C000431E1 /* Assets.xcassets */,
+				1B09D0FB20EAF76A00AA42E2 /* Support Files */,
+				1B09D0F920EAF76000AA42E2 /* ProgressHUD.m */,
+				1B09D0F820EAF76000AA42E2 /* ProgressHUD.h */,
 				1B44196D20E3E47C000431E1 /* LaunchScreen.storyboard */,
 				1B44197020E3E47C000431E1 /* Info.plist */,
+				1B09D0F720EAF75F00AA42E2 /* Spellquiz-Bridging-Header.h */,
 			);
 			path = Spellquiz;
 			sourceTree = "<group>";
@@ -99,6 +136,7 @@
 				TargetAttributes = {
 					1B44196020E3E479000431E1 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -138,9 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B09D0FA20EAF76000AA42E2 /* ProgressHUD.m in Sources */,
 				1B44196720E3E479000431E1 /* ViewController.swift in Sources */,
+				1B09D0F620EAF22800AA42E2 /* Class5Questions.swift in Sources */,
 				1B44196520E3E479000431E1 /* AppDelegate.swift in Sources */,
 				1B09D0EE20EAD1B100AA42E2 /* QuizPlayVC.swift in Sources */,
+				1B09D0F420EADA1A00AA42E2 /* QuestionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +325,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Spellquiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-biroke.Spellquiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfLearner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spellquiz/Spellquiz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +345,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Spellquiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-biroke.Spellquiz";
+				PRODUCT_BUNDLE_IDENTIFIER = com.selfLearner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Spellquiz/Spellquiz-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
