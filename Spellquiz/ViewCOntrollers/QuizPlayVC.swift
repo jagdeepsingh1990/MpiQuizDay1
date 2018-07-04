@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lottie
 
 class QuizPlayVC: UIViewController {
     
@@ -30,30 +31,59 @@ class QuizPlayVC: UIViewController {
     var questionNumber:Int = 0
     var score:Int = 0
     var selectedAnswer:Int = 0
+    var timer = Timer()
+    //lottie
+    
+     let animationView = LOTAnimationView(name: "checked_done_")
+     let animationView2 = LOTAnimationView(name: "error")
     
     //ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        animationView.frame = CGRect(x: self.view.frame.size.width/2 - 60, y: self.view.frame.size.height/2 - 60, width: 120, height: 120)
+        animationView2.frame =  CGRect(x: self.view.frame.size.width/2 - 60, y: self.view.frame.size.height/2 - 60, width: 120, height: 120)
+        
+        timer = Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+        
         updatequestion()
         updateUI()
         // Do any additional setup after loading the view.
     }
-
-  
+// timer action
+    @objc func timerAction() {
+       updatequestion()
+        questionNumber += 1
+    }
     // MARK: - Options Button
     
     
     
     @IBAction func answeredButton(_ sender: UIButton) {
         
+       
         if sender.tag == selectedAnswer {
-            ProgressHUD.showSuccess("Correct")
+           // ProgressHUD.showSuccess("Correct")
+             self.view.addSubview(animationView)
+            animationView.play{ (finished) in
+                DispatchQueue.main.async {
+                    self.animationView.removeFromSuperview()
+
+                }
+            }
             score += 1
         }else{
-         ProgressHUD.showError("Wrong")
+            self.view.addSubview(animationView2)
+            animationView2.play{ (finished) in
+                DispatchQueue.main.async {
+                    self.animationView2.removeFromSuperview()
+                    
+                }
+            }
+         //ProgressHUD.showError("Wrong")
         }
-        questionNumber += 1
-        updatequestion()
+        //questionNumber += 1
+       // updatequestion()
         
     }
     
@@ -73,7 +103,8 @@ class QuizPlayVC: UIViewController {
             self.updateUI()
             
         }else {
-            let alertviewController = UIAlertController(title: "great", message: "You have done with question", preferredStyle: .alert)
+            timer.invalidate()
+            let alertviewController = UIAlertController(title: "Great", message: "You have done with questions", preferredStyle: .alert)
             let alert = UIAlertAction(title: "Ok", style: .default , handler : { action in
                 self.restartQuiz()
             })
@@ -84,6 +115,7 @@ class QuizPlayVC: UIViewController {
     
     override func viewDidLayoutSubviews() {
         updateUI()
+       
     }
     func updateUI() {
         DispatchQueue.main.async {

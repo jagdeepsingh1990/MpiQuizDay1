@@ -1,0 +1,6 @@
+framework module Pods_Spellquiz {
+  umbrella header "Pods-Spellquiz-umbrella.h"
+
+  export *
+  module * { export * }
+}

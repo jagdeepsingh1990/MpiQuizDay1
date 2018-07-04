@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2hb-eG-jSK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14270.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -228,13 +227,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hwf-DL-1ro" userLabel="OPtionView">
                                 <rect key="frame" x="0.0" y="402" width="375" height="265"/>
                                 <subviews>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5im-d2-g4i">
-                                        <rect key="frame" x="10" y="33" width="167.5" height="40"/>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5im-d2-g4i">
+                                        <rect key="frame" x="0.0" y="18" width="375" height="55.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.29019607843137257" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="XlB-W7-cwi"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="fM5-lc-trm"/>
-                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <state key="normal" title="Option A">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -248,8 +244,8 @@
                                             <action selector="answeredButton:" destination="J5V-E1-3Vs" eventType="touchUpInside" id="yNb-95-tF2"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSU-DK-3wP">
-                                        <rect key="frame" x="197.5" y="33" width="167.5" height="40"/>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSU-DK-3wP">
+                                        <rect key="frame" x="0.0" y="78.5" width="375" height="55.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.29019607843137257" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Option b">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -264,8 +260,8 @@
                                             <action selector="answeredButton:" destination="J5V-E1-3Vs" eventType="touchUpInside" id="Ae2-c3-Msa"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4o-DV-CMx">
-                                        <rect key="frame" x="10" y="111" width="167.5" height="40"/>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4o-DV-CMx">
+                                        <rect key="frame" x="0.0" y="139" width="375" height="55.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.29019607843137257" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Option c">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -280,8 +276,8 @@
                                             <action selector="answeredButton:" destination="J5V-E1-3Vs" eventType="touchUpInside" id="jMq-FL-FdP"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpw-7s-yvh">
-                                        <rect key="frame" x="197.5" y="111" width="167.5" height="40"/>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpw-7s-yvh">
+                                        <rect key="frame" x="0.0" y="199.5" width="375" height="55.5"/>
                                         <color key="backgroundColor" red="0.0" green="0.29019607843137257" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Option D">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -299,24 +295,23 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="width" secondItem="rSU-DK-3wP" secondAttribute="width" id="2Aa-vC-iOf"/>
-                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="trailing" secondItem="rSU-DK-3wP" secondAttribute="trailing" id="3Rn-KS-kTI"/>
-                                    <constraint firstItem="5im-d2-g4i" firstAttribute="top" secondItem="hwf-DL-1ro" secondAttribute="top" constant="33" id="9w6-mX-Wzm"/>
-                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="height" secondItem="5im-d2-g4i" secondAttribute="height" id="AEM-h0-p6X"/>
-                                    <constraint firstItem="5im-d2-g4i" firstAttribute="leading" secondItem="hwf-DL-1ro" secondAttribute="leading" constant="10" id="AEs-GK-VPJ"/>
-                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="width" secondItem="5im-d2-g4i" secondAttribute="width" id="Dnr-bN-aw4"/>
+                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="top" secondItem="M4o-DV-CMx" secondAttribute="bottom" constant="5" id="1dl-AD-Vxr"/>
+                                    <constraint firstAttribute="bottom" secondItem="xpw-7s-yvh" secondAttribute="bottom" constant="10" id="5bg-gV-OA4"/>
+                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="height" secondItem="5im-d2-g4i" secondAttribute="height" id="62V-St-blI"/>
+                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="top" secondItem="rSU-DK-3wP" secondAttribute="bottom" constant="5" id="9Zo-7E-KO3"/>
+                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="trailing" secondItem="5im-d2-g4i" secondAttribute="trailing" id="DmG-kc-4dI"/>
                                     <constraint firstAttribute="height" constant="265" id="ImJ-UV-Hz4"/>
-                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="top" secondItem="M4o-DV-CMx" secondAttribute="top" id="J3R-jY-wGC"/>
-                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="height" secondItem="5im-d2-g4i" secondAttribute="height" id="MTl-vi-60l"/>
-                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="height" secondItem="5im-d2-g4i" secondAttribute="height" id="Mlp-U5-z6a"/>
-                                    <constraint firstAttribute="trailing" secondItem="rSU-DK-3wP" secondAttribute="trailing" constant="10" id="Nic-1Z-fIZ"/>
-                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="M4o-DV-CMx" secondAttribute="trailing" constant="20" symbolic="YES" id="Qno-Jv-fNb"/>
-                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="top" secondItem="5im-d2-g4i" secondAttribute="top" id="VFw-cx-T4t"/>
-                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="leading" secondItem="5im-d2-g4i" secondAttribute="leading" id="Vd7-rS-qMu"/>
-                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="width" secondItem="5im-d2-g4i" secondAttribute="width" id="Z08-QK-wNp"/>
-                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="top" secondItem="5im-d2-g4i" secondAttribute="bottom" constant="38" id="lEf-Nz-cRB"/>
-                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="leading" secondItem="5im-d2-g4i" secondAttribute="trailing" constant="20" id="p0W-p6-rwF"/>
-                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hwf-DL-1ro" secondAttribute="leading" constant="20" symbolic="YES" id="wTy-MQ-ZDE"/>
+                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="leading" secondItem="5im-d2-g4i" secondAttribute="leading" id="M4O-hB-EPg"/>
+                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="height" secondItem="5im-d2-g4i" secondAttribute="height" id="NLW-OU-D1Y"/>
+                                    <constraint firstItem="5im-d2-g4i" firstAttribute="leading" secondItem="hwf-DL-1ro" secondAttribute="leading" id="SEI-c5-A4k"/>
+                                    <constraint firstAttribute="trailing" secondItem="5im-d2-g4i" secondAttribute="trailing" id="WvJ-58-aoA"/>
+                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="leading" secondItem="5im-d2-g4i" secondAttribute="leading" id="eZg-QB-BdA"/>
+                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="trailing" secondItem="5im-d2-g4i" secondAttribute="trailing" id="hM2-zh-q8e"/>
+                                    <constraint firstItem="M4o-DV-CMx" firstAttribute="trailing" secondItem="5im-d2-g4i" secondAttribute="trailing" id="knh-wJ-SDm"/>
+                                    <constraint firstItem="xpw-7s-yvh" firstAttribute="leading" secondItem="5im-d2-g4i" secondAttribute="leading" id="mNc-Ib-vls"/>
+                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="top" secondItem="5im-d2-g4i" secondAttribute="bottom" constant="5" id="mci-pD-yq4"/>
+                                    <constraint firstItem="rSU-DK-3wP" firstAttribute="height" secondItem="5im-d2-g4i" secondAttribute="height" id="pqL-cr-YKO"/>
+                                    <constraint firstItem="5im-d2-g4i" firstAttribute="top" secondItem="hwf-DL-1ro" secondAttribute="top" constant="18" id="qzm-G6-pFm"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -363,45 +358,56 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f6Q-Ue-fmK">
-                                <rect key="frame" x="0.0" y="55" width="375" height="568"/>
+                                <rect key="frame" x="0.0" y="70" width="375" height="553"/>
                                 <color key="backgroundColor" red="0.73724985116967423" green="0.7965627250170042" blue="0.83041487068965514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWF-Vk-fb6">
+                                <rect key="frame" x="36" y="20" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="back:" destination="2hb-eG-jSK" eventType="touchUpInside" id="lfY-Am-pMb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vWC-hv-MMP">
+                                <rect key="frame" x="115" y="20" width="56" height="30"/>
+                                <state key="normal" title="Forward"/>
+                                <connections>
+                                    <action selector="back:" destination="2hb-eG-jSK" eventType="touchUpInside" id="Dbj-ek-tuD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7mM-qF-ivo">
+                                <rect key="frame" x="197" y="20" width="47" height="30"/>
+                                <state key="normal" title="Reload"/>
+                                <connections>
+                                    <action selector="back:" destination="2hb-eG-jSK" eventType="touchUpInside" id="wRV-qu-QpB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="k23-yX-v9U" firstAttribute="bottom" secondItem="f6Q-Ue-fmK" secondAttribute="bottom" id="0mz-Uh-ZYS"/>
+                            <constraint firstItem="dWF-Vk-fb6" firstAttribute="top" secondItem="k23-yX-v9U" secondAttribute="top" id="B4o-wc-YJg"/>
+                            <constraint firstItem="7mM-qF-ivo" firstAttribute="leading" secondItem="vWC-hv-MMP" secondAttribute="trailing" constant="26" id="QMe-wM-Xsd"/>
+                            <constraint firstItem="dWF-Vk-fb6" firstAttribute="leading" secondItem="k23-yX-v9U" secondAttribute="leading" constant="36" id="QNH-SA-eio"/>
+                            <constraint firstItem="7mM-qF-ivo" firstAttribute="centerY" secondItem="vWC-hv-MMP" secondAttribute="centerY" id="XDr-pQ-xw5"/>
+                            <constraint firstItem="vWC-hv-MMP" firstAttribute="centerY" secondItem="dWF-Vk-fb6" secondAttribute="centerY" id="XpS-ZS-vu4"/>
                             <constraint firstItem="k23-yX-v9U" firstAttribute="right" secondItem="f6Q-Ue-fmK" secondAttribute="right" id="Y3Y-Fe-xVn"/>
-                            <constraint firstItem="f6Q-Ue-fmK" firstAttribute="top" secondItem="k23-yX-v9U" secondAttribute="top" constant="35" id="Zkc-jT-8za"/>
+                            <constraint firstItem="f6Q-Ue-fmK" firstAttribute="top" secondItem="k23-yX-v9U" secondAttribute="top" constant="50" id="Zkc-jT-8za"/>
+                            <constraint firstItem="vWC-hv-MMP" firstAttribute="leading" secondItem="dWF-Vk-fb6" secondAttribute="trailing" constant="45" id="aiF-md-pbP"/>
                             <constraint firstItem="f6Q-Ue-fmK" firstAttribute="leading" secondItem="k23-yX-v9U" secondAttribute="leading" id="zOc-hU-IQs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="k23-yX-v9U"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem tag="1" systemItem="reply" id="hff-Gd-Fro">
-                            <connections>
-                                <action selector="back:" destination="2hb-eG-jSK" id="LLU-FV-fPB"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem tag="2" systemItem="refresh" id="6T6-zo-i96">
-                            <connections>
-                                <action selector="back:" destination="2hb-eG-jSK" id="YlB-LV-x5W"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem tag="3" systemItem="cancel" id="iEm-UD-Ite">
-                            <connections>
-                                <action selector="back:" destination="2hb-eG-jSK" id="6ca-5K-OAc"/>
-                            </connections>
-                        </barButtonItem>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="backBtn" destination="hff-Gd-Fro" id="a5O-Ik-LBA"/>
-                        <outlet property="cancelBtn" destination="iEm-UD-Ite" id="Pbl-9D-iH9"/>
-                        <outlet property="forwardBtn" destination="6T6-zo-i96" id="ppr-C5-lZ4"/>
+                        <outlet property="Reload" destination="7mM-qF-ivo" id="HNc-Pw-T90"/>
+                        <outlet property="backBtn" destination="dWF-Vk-fb6" id="I71-gi-CRV"/>
+                        <outlet property="forwardBtn" destination="vWC-hv-MMP" id="bDr-9a-Vk5"/>
                         <outlet property="webView" destination="f6Q-Ue-fmK" id="Sj8-X7-ASr"/>
                     </connections>
                 </viewController>
