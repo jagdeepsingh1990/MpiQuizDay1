@@ -18,8 +18,8 @@
 		1B44196520E3E479000431E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196420E3E479000431E1 /* AppDelegate.swift */; };
 		1B44196720E3E479000431E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44196620E3E479000431E1 /* ViewController.swift */; };
 		1B44196A20E3E479000431E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196820E3E479000431E1 /* Main.storyboard */; };
-		1B44196C20E3E47C000431E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196B20E3E47C000431E1 /* Assets.xcassets */; };
 		1B44196F20E3E47C000431E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196D20E3E47C000431E1 /* LaunchScreen.storyboard */; };
+		1B48B04720ECF7DF00AF8EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B48B04620ECF7DF00AF8EB1 /* Assets.xcassets */; };
 		1BFE99B120EC4229006CC064 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE99B020EC4229006CC064 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -35,9 +35,9 @@
 		1B44196420E3E479000431E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B44196620E3E479000431E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B44196920E3E479000431E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B44196B20E3E47C000431E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B44196E20E3E47C000431E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B44197020E3E47C000431E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B48B04620ECF7DF00AF8EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BFE99B020EC4229006CC064 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DA07F18DA377C45EC0E3CE1 /* Pods_Spellquiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spellquiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		371A528F553D048DBF122C91 /* Pods-Spellquiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spellquiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spellquiz/Pods-Spellquiz.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +86,7 @@
 		1B09D0FB20EAF76A00AA42E2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B48B04620ECF7DF00AF8EB1 /* Assets.xcassets */,
 				1B256EE620EC70170049303B /* flow.json */,
 			);
 			path = "Support Files";
@@ -116,7 +117,6 @@
 				1B44196420E3E479000431E1 /* AppDelegate.swift */,
 				1B09D0F020EAD9AF00AA42E2 /* ViewCOntrollers */,
 				1B44196820E3E479000431E1 /* Main.storyboard */,
-				1B44196B20E3E47C000431E1 /* Assets.xcassets */,
 				1B09D0FB20EAF76A00AA42E2 /* Support Files */,
 				1B256EE220EC69170049303B /* checked_done_.json */,
 				1B256EE320EC69180049303B /* error.json */,
@@ -201,8 +201,8 @@
 				1B256EE720EC70170049303B /* flow.json in Resources */,
 				1B256EE420EC69180049303B /* checked_done_.json in Resources */,
 				1B44196F20E3E47C000431E1 /* LaunchScreen.storyboard in Resources */,
+				1B48B04720ECF7DF00AF8EB1 /* Assets.xcassets in Resources */,
 				1BFE99B120EC4229006CC064 /* GoogleService-Info.plist in Resources */,
-				1B44196C20E3E47C000431E1 /* Assets.xcassets in Resources */,
 				1B44196A20E3E479000431E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
