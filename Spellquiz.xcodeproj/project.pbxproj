@@ -20,6 +20,7 @@
 		1B44196A20E3E479000431E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196820E3E479000431E1 /* Main.storyboard */; };
 		1B44196F20E3E47C000431E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B44196D20E3E47C000431E1 /* LaunchScreen.storyboard */; };
 		1B48B04720ECF7DF00AF8EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B48B04620ECF7DF00AF8EB1 /* Assets.xcassets */; };
+		1BAFC93D20EEB2DE009D385F /* ResultViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAFC93C20EEB2DE009D385F /* ResultViewVC.swift */; };
 		1BFE99B120EC4229006CC064 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE99B020EC4229006CC064 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		1B44196E20E3E47C000431E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B44197020E3E47C000431E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B48B04620ECF7DF00AF8EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BAFC93C20EEB2DE009D385F /* ResultViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewVC.swift; sourceTree = "<group>"; };
 		1BFE99B020EC4229006CC064 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DA07F18DA377C45EC0E3CE1 /* Pods_Spellquiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spellquiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		371A528F553D048DBF122C91 /* Pods-Spellquiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spellquiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spellquiz/Pods-Spellquiz.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				1B44196620E3E479000431E1 /* ViewController.swift */,
 				1B09D0ED20EAD1B100AA42E2 /* QuizPlayVC.swift */,
 				1B09D0FC20EB0FAE00AA42E2 /* WebViewViewController.swift */,
+				1BAFC93C20EEB2DE009D385F /* ResultViewVC.swift */,
 			);
 			path = ViewCOntrollers;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				1B09D0FD20EB0FAE00AA42E2 /* WebViewViewController.swift in Sources */,
 				1B44196720E3E479000431E1 /* ViewController.swift in Sources */,
 				1B09D0F620EAF22800AA42E2 /* Class5Questions.swift in Sources */,
+				1BAFC93D20EEB2DE009D385F /* ResultViewVC.swift in Sources */,
 				1B44196520E3E479000431E1 /* AppDelegate.swift in Sources */,
 				1B09D0EE20EAD1B100AA42E2 /* QuizPlayVC.swift in Sources */,
 				1B09D0F420EADA1A00AA42E2 /* QuestionModel.swift in Sources */,

@@ -19,10 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         FirebaseApp.configure()
+       // rootviewController()
         //Fabric.with([Crashlytics.self])
         return true
     }
-
+    func rootviewController() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier:"ViewController")
+        var navcon = UINavigationController()
+        navcon =  UINavigationController(rootViewController: vc)
+        navcon.navigationBar.isTranslucent = false
+        navcon.isNavigationBarHidden = true
+        
+        self.window?.rootViewController = navcon
+        
+        self.window?.makeKeyAndVisible()
+        
+    }
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

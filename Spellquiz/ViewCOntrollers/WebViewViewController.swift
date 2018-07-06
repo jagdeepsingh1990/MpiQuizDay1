@@ -39,6 +39,11 @@ class WebViewViewController: UIViewController,WKNavigationDelegate {
     }
 
     
+    
+    @IBAction func backnavbar(_ sender: UIBarButtonItem) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     @IBAction func back(_ sender: UIButton) {
         if sender.tag == 1 {
             webView.goBack()
